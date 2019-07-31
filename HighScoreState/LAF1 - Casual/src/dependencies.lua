@@ -1,0 +1,6 @@
+require 'src/resources'
+Anima=require 'lib/Anima'
+Class=require 'lib/class'
+require 'lib/StateMachine'
+require 'src/states/BaseState'
+require 'src/states/HighScoreState'
