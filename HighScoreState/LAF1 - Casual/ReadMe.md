@@ -11,9 +11,9 @@ An image says 1000 words. So here you go:-
 
 ## Dependencies
 
-Uses Anima (Newer versions may not support so use only the version that's provided in the lib file)
-Uses hump.Class (hasn't been updated for years so no problem with versions)
-Uses a Simple StateMachine (you MUSTN'T use any other state machine)
+- Uses Anima (Newer versions may not support so use only the version that's provided in the lib file)
+- Uses hump.Class (hasn't been updated for years so no problem with versions)
+- Uses a Simple StateMachine (you MUSTN'T use any other state machine)
 
 ## Credits
 
