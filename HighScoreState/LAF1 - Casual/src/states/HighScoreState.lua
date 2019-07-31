@@ -1,3 +1,10 @@
+--[[
+	HighScoreState for Casual Games- Part of the big love2d-basecode project.
+	Written By Neer (https://github.com/YoungNeer/love2d-basecode)
+	You are free remove this header if you are uncomfortable with it and of-course same goes for other comments
+]]--
+
+
 HighScoreState=Class{__includes=BaseState}
 
 function HighScoreState:init()
@@ -80,9 +87,11 @@ function HighScoreState:update(dt)
 				self:oneStarPEffect()
 				playSound(gSounds.stars[1])
 				self.starsanim=1
+				if self.stars==1 then self.starTimer=nil end
 			elseif self.starsanim==1 and self.stars>=2 then
 				self:twoStarPEffect()
 				playSound(gSounds.stars[2])
+				if self.stars==2 then self.starTimer=nil end
 				self.starsanim=2
 			elseif self.starsanim==2 and self.stars>=3 then
 				self:threeStarPEffect()		
