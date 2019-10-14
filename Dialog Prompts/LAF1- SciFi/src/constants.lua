@@ -1,0 +1,1 @@
+WWIDTH,WHEIGHT=love.window.getMode()
